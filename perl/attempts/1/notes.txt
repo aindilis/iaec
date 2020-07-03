@@ -1,0 +1,24 @@
+We want to take a function, and call it on some input.  The input is
+tagged with Prolog metadata, which is updated with a note of the
+application of some predicate to the data id.  The metadata annotates
+the dataids.  There are metadata preconditions for certain tests to
+run, which in turn generates new metadata.  The output data of a
+particular function can have a filter which translates it to metadata.
+
+so like:
+
+isa(dataIdFn(1540153),contentsFn(pdfFile)).
+
+precond(pdftotext,
+        [
+	 hasType(dataIdFn(InputDataID),contentsFn(pdfFile))
+        ],
+	[
+	 hasType(dataIdFn(OutputDataID),funcall(pdftotext,contentsFn(pdfFile))),
+	 hasType(dataIdFn(OutputDataID),text)
+        ]).
+
+hasFunction(pdftotext,'sub { my $fn = WriteData(Data => $_[0]); system 'pdftotext '.shell_quote($fn).' > '.'').
+  yadi yadi yadi
+
+tie in our metadata stuff here from KBFS-Formalog

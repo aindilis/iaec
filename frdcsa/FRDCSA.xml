@@ -1,0 +1,126 @@
+<system>
+  <title>
+    IAEC
+    <!-- What it is called. Short. Easy to remember. Relevant. -->
+  </title>
+  <acronym-expansion>
+    <!-- If it is an acronym, what does it expand to? -->
+    I AM Eurisko, Cyc!
+  </acronym-expansion>
+  <slogan>
+    <!-- What if any is the slogan? -->
+  </slogan>
+  <pi>
+    <!-- Who is Principle Investigator? -->
+  </pi>
+  <short-description>
+    Eurisko replacement, enhancement
+    <!-- "This system is a system that ..."
+
+	 Syntactic  controls: The $title  system is  a (system  for)? "..."
+	 Tag line, under 70 characters, do not puncuate end.
+	 
+	 Semantic controls:  Purpose of  short-description is to  provide a
+	 one  line  summary that  gives  some  indication  of the  system's
+	 capabilities  for  things  like  apt.   It is  equivalent  to  the
+	 short-desc from the Debian control file.
+
+	 QUOTED FROM DEBIAN POLICY
+
+	 3.4.1 The single line synopsis
+
+	 The single line synopsis should be kept brief - certainly under 80
+	 characters.
+
+	 Do not include the package  name in the synopsis line. The display
+	 software knows how to display this already, and you do not need to
+	 state it. Remember  that in many situations the  user may only see
+	 the synopsis line - make it  as informative as you can.
+
+	 (Answers question .)
+    -->
+  </short-description>
+  <medium-description>
+    IAEC uses a persistence mechanism and a pending Sayer2
+    implementation which tracks multiple invocations over time to
+    detect changes and also has a KB about the functions themselves.
+    It uses different logics to assert functional relationships in a
+    lispish/prologish notation.  It keeps a blackboard of the state of
+    all the different problems it's working on.  It can represent
+    strings in more economical ways by refering to function evaluation
+    results and previously stored data.  It integrates with KBFS, NLU,
+    etc.  It also does knowledge discovery and program verification.
+    Using KBP systems we will extract a KB of properties about
+    algorithms.  It then aids in automatic programming.  It is capable
+    of exceeding the transitive closure of it's programming because it
+    integrates external data read from books and such into it's own
+    system coherently, and thus mines and learns.
+
+    <!-- Similar to extended description for Debian.
+	 
+	 QUOTED FROM DEBIAN POLICY
+
+	 3.4.2 The extended description
+
+	 Do not try to continue  the single line synopsis into the extended
+	 description.  This   will  not   work  correctly  when   the  full
+	 description  is  displayed, and  makes  no  sense  where only  the
+	 summary (the single line synopsis) is available.
+
+	 The extended description should describe what the package does and
+	 how  it relates  to  the rest  of  the system  (in  terms of,  for
+	 example, which subsystem it is which part of).
+
+	 The description field  needs to make sense to  anyone, even people
+	 who  have  no idea  about  any of  the  things  the package  deals
+	 with.[6]
+    -->
+    <summary>
+      <!-- What does the system do? -->
+    </summary>
+    <relationship>
+      <!-- What is the relation to the rest of the FRDCSA? -->
+    </relationship>
+    <lay-description>
+      <!-- Give a non-technical description of what the system does. -->
+    </lay-description>
+  </medium-description>
+  <long-description>
+    <intro>
+      <!-- Long  description goes on  the codebase  website as  the Project
+	   Description.  One  or more  paragraphs that gives  very detailed
+	   information about the project or codebase.
+      -->
+    </intro>
+    <provides>
+      <!-- What does package do technically? -->
+      <capability>
+      </capability>
+    </provides>
+    <relationships>
+      <!-- What is the technical relation to FRDCSA subsystems? -->
+      <subsystems>
+      </subsystems>
+      <supersystems>
+      </supersystems>
+      <package-dependencies>
+	<!-- What Debian packages does this depend on? -->
+      </package-dependencies>
+      <other-dependencies>
+	<!-- What codebases does this depend on? -->
+      </other-dependencies>
+    </relationships>
+    <technical-description>
+      <!-- Give a detailed technical description. -->
+    </technical-description>
+    <relevant-information>
+      <!-- Give any other relevant information. -->
+    </relevant-information>
+    <conclusion>
+    </conclusion>
+    <links>
+      <link>
+      </link>
+    </links>
+  </long-description>
+</system>

@@ -1,0 +1,29 @@
+(work on IAEC and NLU)
+(have the system map out Cyc)
+(figure out how represent Cyc and natural language, come up with
+ sort of EBMT stuff)
+(start translating manually)
+(use existing translation service where appropriate to bootstrap)
+
+(but this is opposite our goal to use existing software)
+(but can't get people to work on packaging existing software)
+
+(had a good feeling today.  something to dominate our problems.
+ like back when AI had first come out.  oh, it was cause of the
+ MOSES opencog system.)
+(change name of IAEC to be less controversial)
+(integrate MOSES with IAEC)
+(package MOSES, etc.)
+
+(Knowledge often refers to other knowledge.  for instance, IAEC,
+ as we used it, requires the definition of the different files and
+ all the relationships with the other files, in order to truly
+ understand what it is.  Ergo get KBFS working.)
+
+(PrologCYC is incomplete)
+(Get hard drive for PrologCYC)
+
+(We see the concomitant mistake - that I can just invent
+ everything myself, as though other people's observations were
+ for not.  We must also index all the machine learning research
+ and such.  Get the deep learning stuff.)

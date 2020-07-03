@@ -1,0 +1,3 @@
+Figure out how to do fact extraction and such to extract ontologies
+from code.  Process existing functions and stuff to mine
+relationships.
