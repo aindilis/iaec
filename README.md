@@ -125,3 +125,5 @@ etc.  Just every kind of algorithmic property.
 These properties are used as input to a decision making process about which function expansions to invoke first.
 
 So this is just a quick overview about how IAEC works.  More later.
+
+For more info in the interim, see https://github.com/aindilis/iaec-notes
