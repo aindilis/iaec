@@ -80,6 +80,7 @@ hasHTMLContents(A,B)
 ...']
 isa(B,string)
 hasHTMLContents(A,B)
+isa(B,htmlString)
 ```
 
 Then you might call ToText on this and so get
@@ -100,6 +101,7 @@ hasHTMLContents(A,B)
 ...']
 isa(B,string)
 hasHTMLContents(A,B)
+isa(B,htmlString)
 hasTextContents(B,C)
 
 ['FRDCSA
